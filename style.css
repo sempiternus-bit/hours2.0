@@ -58,8 +58,8 @@ footer{
     section{
 
         display: flex;
-        max-width: 500px;
-        max-height: 500px;
+        max-width: 400px;
+        max-height: 400px;
         background: white;
         border-radius: 10%;
         flex-direction: column;
