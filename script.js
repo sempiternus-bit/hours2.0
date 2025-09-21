@@ -8,7 +8,7 @@ function carregar() {
 
     if (resultado >= 0 && resultado <= 12){
 
-        msg.innerHTML = `<p>Agora são ${resultado} horas, bom dia!</p>`
+        msg.innerHTML = `<p>Agora são ${resultado} hora(s), bom dia!</p>`
         msg.style.fontSize = '20pt'
         msg.style.fontStyle = 'italic'
         image.setAttribute('src', 'manha.png')
@@ -16,7 +16,7 @@ function carregar() {
 
     } else if (resultado > 12 && resultado < 18){
 
-        msg.innerHTML = `<p>Agora são ${resultado} horas, boa tarde!</p>`
+        msg.innerHTML = `<p>Agora são ${resultado} hora(s), boa tarde!</p>`
         msg.style.fontSize = '20pt'
         msg.style.fontStyle = 'italic'
         image.setAttribute('src', 'tarde.png')
@@ -24,7 +24,7 @@ function carregar() {
 
     }else {
 
-        msg.innerHTML = `<p>Agora são ${resultado} horas, boa noite!</p>`
+        msg.innerHTML = `<p>Agora são ${resultado} hora(s), boa noite!</p>`
         msg.style.fontSize = '20pt'
         msg.style.fontStyle = 'italic'
         image.setAttribute('src', 'noite.png')
