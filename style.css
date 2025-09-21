@@ -18,8 +18,8 @@ header{
 section{
 
     display: flex;
-    max-width: 500px;
-    max-height: 500px;
+    width: 500px;
+    height: 500px;
     background: white;
     border-radius: 10%;
     flex-direction: column;
