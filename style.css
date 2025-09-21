@@ -1,8 +1,8 @@
 body{
 
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    flex-direction: column;
     align-content: center;
     font:  normal 15pt Arial, Helvetica, sans-serif;
     text-align: center;
@@ -24,6 +24,7 @@ section{
     border-radius: 10%;
     flex-direction: column;
     justify-content: center;
+     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -40,8 +41,8 @@ footer{
     body{
 
         display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
+        flex-direction: column;
         align-content: center;
         font:  normal 15pt Arial, Helvetica, sans-serif;
         text-align: center;
@@ -57,12 +58,13 @@ footer{
     section{
 
         display: flex;
-        max-width: 400px;
-        max-height: 400px;
+        max-width: 500px;
+        max-height: 500px;
         background: white;
         border-radius: 10%;
         flex-direction: column;
         justify-content: center;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 
     }
 
