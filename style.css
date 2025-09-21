@@ -2,6 +2,7 @@ body{
 
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-content: center;
     font:  normal 15pt Arial, Helvetica, sans-serif;
     text-align: center;
@@ -40,6 +41,7 @@ footer{
 
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         align-content: center;
         font:  normal 15pt Arial, Helvetica, sans-serif;
         text-align: center;
@@ -54,6 +56,7 @@ footer{
     
     section{
 
+        display: flex;
         max-width: 400px;
         max-height: 400px;
         background: white;
