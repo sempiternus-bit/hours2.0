@@ -54,7 +54,6 @@ footer{
     
     section{
 
-        display: flex;
         max-width: 400px;
         max-height: 400px;
         background: white;
